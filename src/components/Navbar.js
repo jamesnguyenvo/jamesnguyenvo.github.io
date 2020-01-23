@@ -46,8 +46,24 @@ class Navbar extends Component {
                             offset={0}
                             duration= {500}
                         >Projects</Link></li>
-                    <li><a href='#resume'>Resume</a></li>
-                    <li><a href='#contact'>Contact</a></li>
+                    {/* <li><a href='#resume'>Resume</a></li> */}
+                    <li className='nav-item'><Link
+                            activeClass="active"
+                            to="resume"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration= {500}
+                        >Resume</Link></li>
+                    {/* <li><a href='#contact'>Contact</a></li> */}
+                    <li className='nav-item'><Link
+                            activeClass="active"
+                            to="contact"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration= {500}
+                        >Contact</Link></li>
                 </ul>
             </nav>
 

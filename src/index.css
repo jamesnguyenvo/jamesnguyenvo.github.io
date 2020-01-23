@@ -68,18 +68,14 @@ ul#nav li a {
 
 .nav-item > .active {
   color: #00aced !important;
-  /* background-color: red; */
 }
 
-
-.nav-item:hover {
-  color: aqua;
+.nav-item > a:hover{
+  color: #F06000 !important;
+  cursor: pointer;
 }
 
 .nav-item {}
-
-/* ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #00aced; } */
 
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
   margin: 0;

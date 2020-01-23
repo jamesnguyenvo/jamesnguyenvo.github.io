@@ -8,6 +8,9 @@ class About extends Component {
                 <div className='banner-text'>
                     <h1>ABOUT ME</h1>
                     <img className='profile-pic' src='/images/TBD.jpg' alt='Picture of Me' />
+                    <h3>this is info about me this is info about me this is info about me this is info about me this is info about me this is info about me this is info about me 
+                    this is info about me this is info about me this is info about me this is info about me 
+                    </h3>
                 </div>
             </div>
             </header>
