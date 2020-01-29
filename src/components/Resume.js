@@ -6,6 +6,7 @@ class Resume extends Component {
             <section id='resume'>
                 <div>
                     <h1>RESUME</h1>
+                    <p>SOMETHINGSOMETHINGSOMETHINGSOMETHINGSOMETHINGSOMETHINGSOMETHINGSOMETHING</p>
                 </div>
             </section>
         )
