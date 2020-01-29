@@ -149,6 +149,7 @@ header .banner-text h3 {
 #about { 
   background-color: #262626;
   padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 #about h2 {
@@ -165,8 +166,11 @@ header .banner-text h3 {
 
 
 .profile-pic {
-  position: relative;
   width:150px;
-  height: 100px;
+  height: 150px;
   border-radius: 100%;
+  display: block;
+  margin-left: 50%;
+  margin-right: auto;
 }
+
