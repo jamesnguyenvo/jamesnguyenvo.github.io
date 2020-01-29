@@ -19,7 +19,8 @@ class About extends Component {
                     <div className='col-4'></div>
                     <div className='col-4'>
                         <h2>Interests</h2>
-                        <p>Big fan of rock climbing, specifically bouldering.</p>
+                        <p>In my spare time I like to rock climb, play competitive video games, and occasionally make music 
+                            beats. I also enjoy playing hockey, and badminton.</p>
                     </div>
                 </div>
             </section>
