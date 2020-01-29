@@ -12,19 +12,6 @@ code {
     monospace;
 }
 
-.sidebar {
-  /* width: 100%; */
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  background-color: #434b58;
-  color: white;
-  
-  /* height: 100%; */
-  /* overflow: hidden; */
-  /* position: relative; */
-  /* margin: 0 auto; */
-  max-width: 340px;
-}
-
 #nav-wrap {
   font: 15px 'opensans-bold', sans-serif;
   width: 100%;
@@ -92,12 +79,22 @@ ul#nav li {
 }
 
 
-
-.row {
+.row-home {
   width: 95%;
   max-width: 1020px;
-  /* margin: 0 auto; */
-  margin-left: 50%;
+  margin: 0 auto;
+  /* margin-left: 50%; */
+}
+
+
+/* row clearing */
+.row-home::before,
+.row-home::after {
+    content: " ";
+    display: table;
+}
+.row-home::after {
+    clear: both;
 }
 
 header {
@@ -105,13 +102,14 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
- /* -webkit-background-size: cover !important; */
   text-align: center;
-  overflow: hidden;
 }
 
-header .banner-text {
-  width: 100%;
+header::before {
+  content: '';
+  display: inline-block; 
+  vertical-align: middle;
+  height: 100%;
 }
 
 header .banner {
@@ -121,32 +119,50 @@ header .banner {
   width: 85%;
   padding-bottom: 30px;
   text-align: center;
-}
-
-header::before {
-  content: '';
-  display: inline-block;
-  vertical-align: middle;
-  height: 100%;
 } 
 
-.banner-text h1 {
+header .banner-text {
+  width: 100%;
+}
+
+header .banner-text h1 {
   font: 70px 'opensans-bold', sans-serif;
   color: #262626;
   letter-spacing: -2px;
   margin-top: -20%;
-  margin-bottom: 0 auto;
+  margin-bottom:20px;
+  /* margin-bottom: 0 auto;
   margin-left: 18px auto;
-  margin-right: 18px auto;
+  margin-right: 18px auto; */
   text-shadow: 0px 1px 3px rgba(0, 0, 0, .5);
 }
 
 header .banner-text h3 {
-  font: 25px 'librebaskerville-regular', serif;
+  font: 25px 'librebaskerville-regular', sans-serif;
   color: #262626;
   margin: 0 auto;
   width: 70%;
+  margin-top: 20px;
+  display: inline-block;
 }
+/* about section */
+#about { 
+  background-color: #262626;
+  padding-top: 5%;
+}
+
+#about h2 {
+  font: 22px/30px 'opensans-bold', sans-serif;
+  color: #fff;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+#about p {
+  line-height: 30px;
+  color: #7A7A7A;
+}
+
 
 .profile-pic {
   position: relative;

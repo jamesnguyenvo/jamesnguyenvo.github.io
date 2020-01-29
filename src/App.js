@@ -18,12 +18,10 @@ class App extends React.Component{
        <div> 
          {/* <Sidebar items={items}/> */}
          <Navbar/>
-         <div><h className='App-header'>James Vo</h> 
          <About />
          <Projects />
          <Resume />
          <Contact />
-         </div>
        </div>
      )
   }
