@@ -20,7 +20,6 @@ class App extends React.Component{
          <Navbar/>
          <About />
          <Projects />
-         <Resume />
          <Contact />
        </div>
      )
