@@ -172,6 +172,7 @@ header .banner-text h3 {
   margin-right: auto;
 }
 
+/* mess around with this later  */
 @media (max-width: 980px) {
   .profile-pic { display: none;}
 }

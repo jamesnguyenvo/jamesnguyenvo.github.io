@@ -33,7 +33,7 @@ class Navbar extends Component {
                             offset={0}
                             duration= {500}
                         >Projects</Link></li>
-                    <li className='nav-item'><a href='files/resume2.pdf'>Resume</a></li>
+                    <li className='nav-item'><a href='files/VO_JAMES_RESUME.pdf'>Resume</a></li>
                     {/* <li className='nav-item'><Link
                             activeClass="active"
                             to="files/resume2.pdf"
