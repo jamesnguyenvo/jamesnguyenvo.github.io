@@ -172,6 +172,25 @@ header .banner-text h3 {
   margin-right: auto;
 }
 
+/* projects section  */
+#projects {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#projects h1 {
+  font: 18px/24px 'opensans-bold', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#projects .title {
+  margin-left: 10%;
+  /* margin-right: auto; */
+}
+
+
+
 /* mess around with this later  */
 @media (max-width: 980px) {
   .profile-pic { display: none;}

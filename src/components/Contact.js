@@ -5,7 +5,7 @@ class Contact extends Component {
         return(
             <section id='contact'>
                 
-                <div class="row">
+                <div className="row">
     <div class="col">
       1 of 2
     </div>
