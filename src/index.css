@@ -12,7 +12,9 @@ code {
     monospace;
 }
 
-/* nav bar  */
+/* 
+*nav bar
+*/
 #nav-wrap {
   font: 15px 'opensans-bold', sans-serif;
   width: 100%;
@@ -53,12 +55,12 @@ ul#nav li a {
     transition: color .2s ease-in-out;
   }
 
-.nav-item > .active {
-  color: #00aced !important;
+#nav .nav-item > .active {
+  color: #00aced ;
 }
 
-.nav-item > a:hover{
-  color: #F06000 !important;
+#nav .nav-item > a:hover{
+  color: #F06000 ;
   cursor: pointer;
 }
 
@@ -141,7 +143,9 @@ header .banner-text h3 {
   display: inline-block;
 }
 
-/* about section */
+/* 
+*about section 
+*/
 #about { 
   background-color: #262626;
   padding-top: 5%;
@@ -170,7 +174,9 @@ header .banner-text h3 {
   margin-right: auto;
 }
 
-/* projects section  */
+/* 
+*projects section  
+*/
 #projects {
   padding-top: 5%;
   padding-bottom: 5%;
@@ -223,6 +229,16 @@ header .banner-text h3 {
 
 #projects a:hover {
   text-decoration: none;
+}
+
+/* 
+*contact section 
+*/
+
+#contact {
+  background-color: #262626;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 /* mess around with this later  */
