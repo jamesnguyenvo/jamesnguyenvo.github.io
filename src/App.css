@@ -43,16 +43,3 @@
   }
 }
 
-.nav-item > .active {
-  color: #00aced !important;
-}
-
-.nav-item a { color: #00aced; }
-
-.nav-item:hover {
-  color: aqua;
-}
-
-.nav-item {
-
-}

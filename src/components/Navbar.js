@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 import { render } from '@testing-library/react';
-// https://github.com/tbakerx/react-resume-template
 
 class Navbar extends Component {
     render() { 
@@ -33,14 +32,15 @@ class Navbar extends Component {
                             offset={0}
                             duration= {500}
                         >Projects</Link></li>
-                    <li className='nav-item'><Link
+                    <li className='nav-item'><a href='files/VO_JAMES_RESUME.pdf'>Resume</a></li>
+                    {/* <li className='nav-item'><Link
                             activeClass="active"
-                            to="resume"
+                            to="files/resume2.pdf"
                             spy={true}
                             smooth={true}
                             offset={0}
                             duration= {500}
-                        >Resume</Link></li>
+                        >Resume</Link></li> */}
                     <li className='nav-item'><Link
                             activeClass="active"
                             to="contact"
@@ -55,6 +55,7 @@ class Navbar extends Component {
                 <div className='row-home banner'>
                     <div className='banner-text'>
                         <h1>Hello! My name is James Vo.</h1>
+                        <hr />
                         <h3>I am a computing science graduate from the University of Alberta, currently living in Edmonton, Alberta.</h3>
                     </div>
                 </div>
