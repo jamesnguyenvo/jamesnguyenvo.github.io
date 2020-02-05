@@ -6,7 +6,13 @@ class Projects extends Component {
             <section id='projects'>
                 <div className='row'>
                         <div className='col-md-4'>
-                            <h1 className='title'><a className='repo' href='https://github.com/jamesnguyenvo/group-project-cmput404'>Connectify</a></h1>
+                            
+                            <h1 className='title'>
+                                <i class="fa fa-github fa-lg"></i> 
+                                <a className='repo' href='https://github.com/jamesnguyenvo/group-project-cmput404'>
+                                    Connectify
+                                </a>
+                            </h1>
                         </div>
                         <div className='col-md-4'>
                             <h2>Django Social Web Application</h2>
@@ -21,7 +27,12 @@ class Projects extends Component {
                 </div>
                 <div className='row'>
                         <div className='col-md-4'>
-                            <h1 className='title'><a className='repo' href='https://github.com/jamesnguyenvo/H4bit'>H4BIT</a></h1>
+                            <h1 className='title'>
+                                <i class="fa fa-github fa-lg"></i>
+                                <a className='repo' href='https://github.com/jamesnguyenvo/H4bit'> 
+                                    H4BIT
+                                </a>
+                            </h1>
                         </div>
                         <div className='col-md-4'>
                             <h2>Java Android Application</h2>
@@ -36,7 +47,12 @@ class Projects extends Component {
                 </div>
                 <div className='row'>
                         <div className='col-md-4'>
-                            <h1 className='title'><a className='repo' href='https://github.com/jamesnguyenvo/smashRanking'>Ranking Manager</a></h1>
+                            <h1 className='title'>
+                            <i class="fa fa-github fa-lg"></i>
+                                <a className='repo' href='https://github.com/jamesnguyenvo/smashRanking'>
+                                    Ranking Manager
+                                    </a>
+                                </h1>
                         </div>
                         <div className='col-md-4'>
                             <h2>Python Ranking Application</h2>
