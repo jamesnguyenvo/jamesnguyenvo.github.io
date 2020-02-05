@@ -5,13 +5,13 @@ class Projects extends Component {
         return(
             <section id='projects'>
                 <div className='row'>
-                        <div className='col-md-4'>
-                            
-                            <h1 className='title'>
+                        <div className='col-md-4'>          
+                            <h1 className='title'><a href='https://github.com/jamesnguyenvo/group-project-cmput404'>
                                 <i class="fa fa-github fa-lg"></i> 
-                                <a className='repo' href='https://github.com/jamesnguyenvo/group-project-cmput404'>
+                                <a className='repo'>
                                     Connectify
-                                </a>
+                                </a> 
+                            </a>
                             </h1>
                         </div>
                         <div className='col-md-4'>
@@ -27,11 +27,12 @@ class Projects extends Component {
                 </div>
                 <div className='row'>
                         <div className='col-md-4'>
-                            <h1 className='title'>
+                            <h1 className='title'><a href='https://github.com/jamesnguyenvo/H4bit'>
                                 <i class="fa fa-github fa-lg"></i>
-                                <a className='repo' href='https://github.com/jamesnguyenvo/H4bit'> 
+                                <a className='repo'> 
                                     H4BIT
                                 </a>
+                            </a>
                             </h1>
                         </div>
                         <div className='col-md-4'>
@@ -47,11 +48,12 @@ class Projects extends Component {
                 </div>
                 <div className='row'>
                         <div className='col-md-4'>
-                            <h1 className='title'>
+                            <h1 className='title'><a href='https://github.com/jamesnguyenvo/smashRanking'>
                             <i class="fa fa-github fa-lg"></i>
-                                <a className='repo' href='https://github.com/jamesnguyenvo/smashRanking'>
+                                <a className='repo'>
                                     Ranking Manager
                                     </a>
+                                    </a>    
                                 </h1>
                         </div>
                         <div className='col-md-4'>
