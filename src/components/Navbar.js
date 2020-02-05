@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 import { render } from '@testing-library/react';
-// https://github.com/tbakerx/react-resume-template
 
 class Navbar extends Component {
     render() { 
