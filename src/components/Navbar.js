@@ -51,7 +51,6 @@ class Navbar extends Component {
                         >Contact</Link></li>
                 </ul>
             </nav>
-
                 <div className='row-home banner'>
                     <div className='banner-text'>
                         <h1>Hello! My name is James Vo.</h1>

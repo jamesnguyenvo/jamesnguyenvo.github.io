@@ -194,6 +194,7 @@ header .banner-text h3 {
 
 #projects h2 {
   font: 25px/30px 'opensans-regular', sans-serif;
+  /* margin-left: 30px; */
 }
 
 #projects .date {
@@ -215,7 +216,7 @@ header .banner-text h3 {
   margin-left: -10px;
 }
 
-#projects .repo{
+#projects .repo {
   color: inherit;
   border-bottom: 3px solid #11ABB0;
   padding-bottom: 6px;
@@ -234,6 +235,23 @@ header .banner-text h3 {
   text-decoration: none;
 }
 
+#projects i:hover + .repo {
+  border-bottom: none;
+}
+#projects .icon {
+  /* line-height: 30px;
+  float: left;
+  display: inline-block; */
+  list-style-type: none;
+  margin-left: -20%;
+  text-align: center;
+}
+#projects .youtube {
+  color: black;
+}
+#projects .youtube:hover {
+  color: blue;
+}
 /* 
 *contact section 
 */
@@ -242,6 +260,16 @@ header .banner-text h3 {
   background-color: #262626;
   padding-top: 5%;
   padding-bottom: 5%;
+}
+  
+#contact .social {
+  list-style-type: none;
+  color: white;
+  display: flex;
+}
+
+#contact a {
+  color: inherit;
 }
 
 /* mess around with this later  */
