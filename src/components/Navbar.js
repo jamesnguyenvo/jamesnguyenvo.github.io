@@ -7,6 +7,10 @@ class Navbar extends Component {
         return(
             <header id='home'>
             <nav id='nav-wrap'>
+                <a className='mobile-button'  href='#nav-wrap' title='Show navigation'></a>
+                {/* <i class="fa fa-bars mobile-button"></i> */}
+                    <a className='mobile-button' href='' title='Hide navigation'></a>
+
                 <ul id='nav'>
                     <li className='nav-item'><Link
                             activeClass="active"

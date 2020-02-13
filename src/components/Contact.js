@@ -10,6 +10,7 @@ class Contact extends Component {
                     <ul className='social'>
                         <li><a href='https://google.ca'><i className='fa fa-github fa-5x'></i></a></li>
                         <li><i className='fa fa-linkedin fa-5x'></i></li>
+                        <li><i class="fa fa-envelope fa-5x"></i></li>
                     </ul>
                 </div>
             </div>
