@@ -61,7 +61,7 @@ ul#nav li a {
   }
 
 #nav .nav-item > .active {
-  color: #00aced ;
+  color: #11ABB0;
 }
 
 #nav .nav-item > a:hover{
@@ -269,11 +269,17 @@ header .banner-text h3 {
   list-style-type: none;
   color: white;
   display: flex;
+  margin: auto;
+  justify-content: center;
 }
 
-#contact a {
-  color: inherit;
-}
+#contact li:first-child { margin-left: 0; }
+
+#contact li { margin-left: 25px; }
+
+#contact a { color: inherit; }
+
+#contact a:hover { color: #F06000 }
 
 /* mess around with this later  */
 @media (max-width: 980px) {
