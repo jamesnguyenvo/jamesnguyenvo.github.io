@@ -5,7 +5,7 @@ class About extends Component {
         return(
             <section id='about'>
                 <div className='row'>
-                    <div className='col-4'><img className='profile-pic' src='/images/profile-pic.png' alt='Picture of Me' /> 
+                    <div className='col-4'><img className='profile-pic' src='/images/profile-pic.PNG' alt='Picture of Me' /> 
                     </div>
                     <div className='col-4'>                
                         <h2>About Me</h2>
