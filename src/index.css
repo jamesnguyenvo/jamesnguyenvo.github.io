@@ -1,3 +1,5 @@
+@import url("font-awesome-4.7.0/css/font-awesome.min.css");
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -12,7 +14,9 @@ code {
     monospace;
 }
 
-/* nav bar  */
+/* 
+*nav bar
+*/
 #nav-wrap {
   font: 15px 'opensans-bold', sans-serif;
   width: 100%;
@@ -25,6 +29,9 @@ code {
   top: 0;
   background-color: #3a3939;
 }
+
+/* for mobile view, turn navbar into a hamburger menu  */
+#nav-wrap > a.mobile-button { display: none; }
 
 ul#nav {
   min-height: 48px;
@@ -53,12 +60,12 @@ ul#nav li a {
     transition: color .2s ease-in-out;
   }
 
-.nav-item > .active {
-  color: #00aced !important;
+#nav .nav-item > .active {
+  color: #11ABB0;
 }
 
-.nav-item > a:hover{
-  color: #F06000 !important;
+#nav .nav-item > a:hover{
+  color: #F06000 ;
   cursor: pointer;
 }
 
@@ -141,7 +148,9 @@ header .banner-text h3 {
   display: inline-block;
 }
 
-/* about section */
+/* 
+*about section 
+*/
 #about { 
   background-color: #262626;
   padding-top: 5%;
@@ -170,7 +179,9 @@ header .banner-text h3 {
   margin-right: auto;
 }
 
-/* projects section  */
+/* 
+*projects section  
+*/
 #projects {
   padding-top: 5%;
   padding-bottom: 5%;
@@ -181,11 +192,12 @@ header .banner-text h3 {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: bold;
-  margin-left: 60%;
+  margin-left: 55%;
 }
 
 #projects h2 {
   font: 25px/30px 'opensans-regular', sans-serif;
+  /* margin-left: 30px; */
 }
 
 #projects .date {
@@ -198,7 +210,7 @@ header .banner-text h3 {
 #projects .info {
   font: 16px/24px 'librebaskerville', sans-serif;
   color: #666;
-  margin-bottom: 115px;
+  margin-bottom: 75px;
   margin-top: 9px;
 }
 
@@ -207,10 +219,11 @@ header .banner-text h3 {
   margin-left: -10px;
 }
 
-#projects .repo{
+#projects .repo {
   color: inherit;
   border-bottom: 3px solid #11ABB0;
   padding-bottom: 6px;
+  margin-left: 10px;
 }
 
 #projects .repo:hover {
@@ -225,7 +238,131 @@ header .banner-text h3 {
   text-decoration: none;
 }
 
+#projects i:hover + .repo {
+  border-bottom: none;
+}
+#projects .icon {
+  /* line-height: 30px;
+  float: left;
+  display: inline-block; */
+  list-style-type: none;
+  margin-left: -20%;
+  text-align: center;
+}
+#projects .youtube {
+  margin-left: -30px;
+  margin-right: 9px;
+}
+
+/* #projects .youtube:hover + .youtube-title {
+  color: #F06000;
+} */
+
+#projects .highlight:hover {
+  color: #F06000;
+}
+
+/* 
+*contact section 
+*/
+
+#contact {
+  background-color: #262626;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+  
+#contact .social {
+  list-style-type: none;
+  color: white;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+#contact li:first-child { margin-left: 0; }
+
+#contact li { margin-left: 25px; }
+
+#contact a { color: inherit; }
+
+#contact a:hover { color: #F06000 }
+
 /* mess around with this later  */
 @media (max-width: 980px) {
   .profile-pic { display: none;}
+}
+
+@media (max-width: 700px) {
+  #nav-wrap {
+    font: 12px 'opensans-bold', sans-serif;
+    background: transparent !important;
+    letter-spacing: 1.5px;  
+    width: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+
+  #nav-wrap > .mobile-button {
+    width: 40px;
+    height: 40px;
+    text-align: left;
+    position: relative;
+    border-radius: 20%;
+    border: 2px solid #3a3939; ;
+    float: right;
+    font: 0/0 a;
+    text-shadow: none;
+    /* color: transparent; */
+    /* top: 0px; */
+    right: 30px;
+  }
+
+  /* PURE CSS HAMBURGER MENU */
+  #nav-wrap > a.mobile-button:before {
+    content: '';
+    border: 1px solid #00aced;
+    position: absolute;
+    top: 23%;
+    left: 25%;
+    right: 25%;
+  }
+  
+  #nav-wrap > a.mobile-button:after {
+    content: '';
+    border-bottom: 2px solid #00aced;
+    border-top: 2px solid #00aced;
+    height: 11px;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    right: 25%;
+  }
+	
+  /* display */
+  #nav-wrap:not( :target ) > a:first-of-type,
+  #nav-wrap:target > a:last-of-type  {
+    display: block;
+  }
+
+  ul#nav { display: none; }
+
+  #nav-wrap:target > ul#nav	{
+    display: block;
+    padding: 30px 20px 48px 20px;
+    background: #1f2024;
+    margin: 0 30px;
+    clear: both;
+    float: right;
+  }
+
+  ul#nav li {
+    display: block;
+    height: auto;      
+    margin: auto auto;         
+    text-align: left;
+    border-bottom: 1px solid #2D2E34;
+ }
+ 
 }
