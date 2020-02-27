@@ -8,9 +8,9 @@ class Contact extends Component {
                 <div className='col-md-4'></div> 
                 <div className='col-md-4'> 
                     <ul className='social'>
-                        <li><a href='https://google.ca'><i className='fa fa-github fa-3x'></i></a></li>
-                        <li><a href=''><i className='fa fa-linkedin fa-3x'></i></a></li>
-                        <li><a href=''><i className="fa fa-envelope fa-3x"></i></a></li>
+                        <li><a href='https://github.com/jamesnguyenvo'><i className='fa fa-github fa-3x'></i></a></li>
+                        <li><a href='https://www.linkedin.com/in/jamesnguyenvo/'><i className='fa fa-linkedin fa-3x'></i></a></li>
+                        <li><a href='mailto:jv@ualberta.ca' target='_blank'><i className="fa fa-envelope fa-3x"></i></a></li>
                     </ul>
                 </div>
             </div>

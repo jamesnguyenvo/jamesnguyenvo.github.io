@@ -19,8 +19,9 @@ class About extends Component {
                     <div className='col-4'></div>
                     <div className='col-4'>
                         <h2>Interests</h2>
-                        <p>Outside of coding, I like to rock climb, play competitive video games, and occasionally make music 
-                            beats. I also enjoy playing hockey, and badminton.</p>
+                        <p>One of my absolute favourite things to do is rock climb! I also enjoy playing <a href='https://www.youtube.com/watch?v=ic10P3vE3Og'>
+                            Super Smash Bros. Melee</a> competitively, and occasionally make music beats. Playing hockey, badminton, and crying as a result of 
+                            the Oilers are things I partake in as well.</p>
                     </div>
                 </div>
             </section>

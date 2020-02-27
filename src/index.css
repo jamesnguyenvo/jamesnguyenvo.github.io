@@ -250,11 +250,18 @@ header .banner-text h3 {
   text-align: center;
 }
 #projects .youtube {
-  color: black;
+  margin-left: -30px;
+  margin-right: 9px;
 }
-#projects .youtube:hover {
-  color: blue;
+
+/* #projects .youtube:hover + .youtube-title {
+  color: #F06000;
+} */
+
+#projects .highlight:hover {
+  color: #F06000;
 }
+
 /* 
 *contact section 
 */

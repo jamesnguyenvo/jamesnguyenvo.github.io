@@ -15,13 +15,17 @@ class Projects extends Component {
                         </h1>
                     </div>
                     <div className='col-md-4'>
-                        <h2>Django Social Web Application</h2>
+                        <h2 className='highlight'><a href='https://www.youtube.com/watch?v=thaDP-9Qz3g'>
+                            <i className="fa fa-youtube fa-md youtube"></i>
+                            <a>Django Social Web Application
+                            </a>
+                        </a>    
+                        </h2>
                             <h3 className='date'>January - April 2019</h3>
                             <ul className='info'>
                                 <li>Create a profile, add friends, create posts, like, and comment on other posts</li>
                                 <li>Developed our own API in order interact with several other groups</li>
                                 <li>Utilized Github API to import Github activity onto Connectify's feed</li>
-                                <li className='icon'><a href='https://www.youtube.com/watch?v=thaDP-9Qz3g'><i className="fa fa-youtube fa-2x youtube"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -36,13 +40,18 @@ class Projects extends Component {
                             </h1>
                         </div>
                         <div className='col-md-4'>
-                            <h2>Java Android Application</h2>
+                            <h2 className='highlight'><a href='https://www.youtube.com/watch?v=_XTTmBgx-RY'>
+                                <i className="fa fa-youtube fa-md youtube"></i>
+                                <a>Java Android Application    
+                                </a>
+                            </a>
+                            </h2>
                             <h3 className='date'>September - December 2017</h3>
                             <ul className='info'>
                                 <li>Create daily/weekly tasks to build habits</li>
                                 <li>Follow others to keep track of and interact with their habits</li>
                                 <li>Implemented Elasticsearch to provide search and online functionality</li>
-                                <li><a href='https://www.youtube.com/watch?v=_XTTmBgx-RY'>Video Demo</a></li>
+                                {/* <li><a href='https://www.youtube.com/watch?v=_XTTmBgx-RY'>Video Demo</a></li> */}
                             </ul>
                         </div>
                 </div>
