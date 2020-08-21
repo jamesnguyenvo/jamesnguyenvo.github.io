@@ -10,7 +10,7 @@ class About extends Component {
                     <div className='col-4'>                
                         <h2>About Me</h2>
                         <p>I graduated from the University of Alberta with a Bachelor of Science with Specialization in 
-                            Computing Science in the summer of 2019. After taking some time off to travel, I am now looking
+                            Computing Science in the summer of 2019. After a year off for personal development, I am now looking
                             for full-time employment. 
                         </p>
                     </div>
